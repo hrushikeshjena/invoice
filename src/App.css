@@ -1,38 +1,129 @@
-.App {
+.invoice {
+  font-family: Arial, sans-serif;
+  width: 850px;
+  margin: 0 auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.invoice-section {
+  margin-bottom: 20px;
+}
+
+.invoice-section p {
+  margin: 0;
+  padding: 0;
+}
+
+.bill-s{
+  display: flex;
+
+}
+.total-t{
+  background-color: bisque;
+  font-weight: 600; 
+}
+.head-i{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-a{
+  width: 45%;
+}
+.tax{
+  display: flex;
+}
+.tax p{
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.tax h1{
+  font-size: 16px;
+}
+.box-s{
+  border: 2px solid rgb(170, 170, 170);
+  height: 50px;
+  width: 200px;
+}
+.total-r, .table-h{
+ background-color: bisque;
+}
+.bill h3{
+  background-color: bisque;
+  width: 80px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.items{
+  width: 20%;
+}
+.table-h th{
+  padding: 8px;
+  font-size: 16px;
+}
+.table-d td{
+  text-align: center;
+  padding: .7rem;
+  font-size: 13px;
+}
+.total-tl td{
+  text-align: center;
+  padding: .3rem;
+  font-size: 15px;
+  font-weight: 600;
+}
+.ship {
+  margin-left: 30%;
+  
+}
+.ship h3{
+  background-color: bisque;
+  width: 95px;
+  border-radius: 15px;
+  text-align: center;
+padding: 5px;
+}
+.bank-auth{
+  margin-top: 1.5rem;
+}
+
+.bank-auth{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.qr{
+  display: flex;
+}
+.qr-d{
+  margin-left: 90px;
+}
+.gst td{
+  padding:.8rem;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bank-d p{
+  padding: 6px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tot-l{
+  font-weight: 600;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addr{
+  margin-top: 15px;
+  margin-right: 10%;
 }
-
-.App-link {
-  color: #61dafb;
+.dec-l{
+  position: absolute;
+  top: 37rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dec-l p{
+  font-size: 16px;
+  font-weight: 600;
+  width: 48%;
+}
+.note{
+  padding-bottom: 60px;
 }
